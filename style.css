@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fff7ed;
+    color: #333;
+}
+
+.hero {
+    background-color:  pink;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(246, 128, 212);
+    padding: 60px 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #b45309;
+}
+
+.menu-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background: white;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #e590b4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.promo-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.promo-card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.promo-card h3 {
+    color: #b45309;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif, cursive;
+    font-size: 48px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4d3a3;
+    padding: 10px 20px;
+}
+
+.nav-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.search-box {
+    display: flex;
+    gap: 5px;
+}
+
+header {
+    background-color: #e19cc1;  
+    color: white;
+}
+
+/* Review form */
+.review-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-form input,
+.review-form textarea {
+  padding: 10px;
+  border: 2px solid black;
+  font-size: 14px;
+}
+
+.review-form button {
+  background: gold;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Star rating system */
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  font-size: 25px;
+  color: gray;
+  cursor: pointer;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: gold;
+}
