@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Reviews</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="reviews">
+  <h2>Customer Reviews</h2>
+
+  <!-- Existing Reviews -->
+  <div class="review-card">
+    <p class="stars">⭐⭐⭐⭐⭐</p>
+    <p>"The cakes are delicious and beautifully decorated!"</p>
+    <p class="name">– Maria S.</p>
+  </div>
+
+  <div class="review-card">
+    <p class="stars">⭐⭐⭐⭐⭐</p>
+    <p>"Amazing service and fast delivery."</p>
+    <p class="name">– Daniel R.</p>
+  </div>
+
+  <hr>
+
+  <!-- Review Submission Form -->
+  <h3>Leave a Review</h3>
+
+  <form class="review-form">
+    <input type="text" placeholder="Your Name" required>
+
+    <!-- Star Rating -->
+    <div class="star-rating">
+      <input type="radio" name="rating" id="star5"><label for="star5">★</label>
+      <input type="radio" name="rating" id="star4"><label for="star4">★</label>
+      <input type="radio" name="rating" id="star3"><label for="star3">★</label>
+      <input type="radio" name="rating" id="star2"><label for="star2">★</label>
+      <input type="radio" name="rating" id="star1"><label for="star1">★</label>
+    </div>
+
+    <textarea placeholder="Write your review..." required></textarea>
+
+    <button type="submit">Submit Review</button>
+  </form>
+
+  <a class="back" href="index.html">⬅ Back</a>
+</section>
+
+</body>
+</html>
